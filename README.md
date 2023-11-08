@@ -22,12 +22,15 @@ You will see that there are already a couple of endpoints in the `microservice` 
 
 ### Assessment
 
-Your submission will be judged on the following criteria.
+Please assume this piece of code would be deployed to a production environment and managed by software developers into the future.
 
-- The solution works.
-- The solution is maintainable.
-- The solution is tested.
-- The solution is appropriate.
+Your submission will be judged on the following criteria: 
+
+- The solution works and compiles.
+- The solution appropriately solves the problem.
+- The solution has been tested and has appropriate tests.
+- The solution has considered future maintainability, extensibility, and traceability.
+- The solution has considered application security.
 
 ## The Exercises
 
