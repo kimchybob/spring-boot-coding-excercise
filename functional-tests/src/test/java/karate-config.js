@@ -2,8 +2,9 @@ function fn() {
   // See https://github.com/intuit/karate#karate-configjs for information on
   // this file.
 
-  karate.configure("connectTimeout", 5000);
-  karate.configure("readTimeout", 5000);
+  karate.configure('connectTimeout', 5000);
+  karate.configure('readTimeout', 5000);
+  karate.configure('ssl', { trustAll: true });
 
   let protocol = "http";
   let host = "localhost";
